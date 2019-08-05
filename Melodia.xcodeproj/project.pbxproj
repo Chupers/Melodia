@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80B34C622F829F100D22086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B34C522F829F100D22086 /* AppDelegate.swift */; };
+		D80B34C822F829F100D22086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B34C722F829F100D22086 /* ViewController.swift */; };
+		D80B34CB22F829F100D22086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80B34C922F829F100D22086 /* Main.storyboard */; };
+		D80B34CD22F829FB00D22086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80B34CC22F829FB00D22086 /* Assets.xcassets */; };
+		D80B34D022F829FB00D22086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80B34CE22F829FB00D22086 /* LaunchScreen.storyboard */; };
+		D80B34DB22F829FB00D22086 /* MelodiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B34DA22F829FB00D22086 /* MelodiaTests.swift */; };
+		D80B34E622F829FB00D22086 /* MelodiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B34E522F829FB00D22086 /* MelodiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D80B34D722F829FB00D22086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80B34BA22F829F100D22086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80B34C122F829F100D22086;
+			remoteInfo = Melodia;
+		};
+		D80B34E222F829FB00D22086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80B34BA22F829F100D22086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80B34C122F829F100D22086;
+			remoteInfo = Melodia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D80B34C222F829F100D22086 /* Melodia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melodia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B34C522F829F100D22086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80B34C722F829F100D22086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80B34CA22F829F100D22086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80B34CC22F829FB00D22086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80B34CF22F829FB00D22086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80B34D122F829FB00D22086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80B34D622F829FB00D22086 /* MelodiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B34DA22F829FB00D22086 /* MelodiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiaTests.swift; sourceTree = "<group>"; };
+		D80B34DC22F829FB00D22086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80B34E122F829FB00D22086 /* MelodiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B34E522F829FB00D22086 /* MelodiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiaUITests.swift; sourceTree = "<group>"; };
+		D80B34E722F829FB00D22086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80B34BF22F829F100D22086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B34D322F829FB00D22086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B34DE22F829FB00D22086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80B34B922F829F100D22086 = {
+			isa = PBXGroup;
+			children = (
+				D80B34C422F829F100D22086 /* Melodia */,
+				D80B34D922F829FB00D22086 /* MelodiaTests */,
+				D80B34E422F829FB00D22086 /* MelodiaUITests */,
+				D80B34C322F829F100D22086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D80B34C322F829F100D22086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80B34C222F829F100D22086 /* Melodia.app */,
+				D80B34D622F829FB00D22086 /* MelodiaTests.xctest */,
+				D80B34E122F829FB00D22086 /* MelodiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80B34C422F829F100D22086 /* Melodia */ = {
+			isa = PBXGroup;
+			children = (
+				D80B34C522F829F100D22086 /* AppDelegate.swift */,
+				D80B34C722F829F100D22086 /* ViewController.swift */,
+				D80B34C922F829F100D22086 /* Main.storyboard */,
+				D80B34CC22F829FB00D22086 /* Assets.xcassets */,
+				D80B34CE22F829FB00D22086 /* LaunchScreen.storyboard */,
+				D80B34D122F829FB00D22086 /* Info.plist */,
+			);
+			path = Melodia;
+			sourceTree = "<group>";
+		};
+		D80B34D922F829FB00D22086 /* MelodiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D80B34DA22F829FB00D22086 /* MelodiaTests.swift */,
+				D80B34DC22F829FB00D22086 /* Info.plist */,
+			);
+			path = MelodiaTests;
+			sourceTree = "<group>";
+		};
+		D80B34E422F829FB00D22086 /* MelodiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D80B34E522F829FB00D22086 /* MelodiaUITests.swift */,
+				D80B34E722F829FB00D22086 /* Info.plist */,
+			);
+			path = MelodiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80B34C122F829F100D22086 /* Melodia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B34EA22F829FB00D22086 /* Build configuration list for PBXNativeTarget "Melodia" */;
+			buildPhases = (
+				D80B34BE22F829F100D22086 /* Sources */,
+				D80B34BF22F829F100D22086 /* Frameworks */,
+				D80B34C022F829F100D22086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melodia;
+			productName = Melodia;
+			productReference = D80B34C222F829F100D22086 /* Melodia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D80B34D522F829FB00D22086 /* MelodiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B34ED22F829FB00D22086 /* Build configuration list for PBXNativeTarget "MelodiaTests" */;
+			buildPhases = (
+				D80B34D222F829FB00D22086 /* Sources */,
+				D80B34D322F829FB00D22086 /* Frameworks */,
+				D80B34D422F829FB00D22086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80B34D822F829FB00D22086 /* PBXTargetDependency */,
+			);
+			name = MelodiaTests;
+			productName = MelodiaTests;
+			productReference = D80B34D622F829FB00D22086 /* MelodiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D80B34E022F829FB00D22086 /* MelodiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B34F022F829FB00D22086 /* Build configuration list for PBXNativeTarget "MelodiaUITests" */;
+			buildPhases = (
+				D80B34DD22F829FB00D22086 /* Sources */,
+				D80B34DE22F829FB00D22086 /* Frameworks */,
+				D80B34DF22F829FB00D22086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D80B34E322F829FB00D22086 /* PBXTargetDependency */,
+			);
+			name = MelodiaUITests;
+			productName = MelodiaUITests;
+			productReference = D80B34E122F829FB00D22086 /* MelodiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80B34BA22F829F100D22086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Eugenie Chupris";
+				TargetAttributes = {
+					D80B34C122F829F100D22086 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D80B34D522F829FB00D22086 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D80B34C122F829F100D22086;
+					};
+					D80B34E022F829FB00D22086 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D80B34C122F829F100D22086;
+					};
+				};
+			};
+			buildConfigurationList = D80B34BD22F829F100D22086 /* Build configuration list for PBXProject "Melodia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80B34B922F829F100D22086;
+			productRefGroup = D80B34C322F829F100D22086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80B34C122F829F100D22086 /* Melodia */,
+				D80B34D522F829FB00D22086 /* MelodiaTests */,
+				D80B34E022F829FB00D22086 /* MelodiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80B34C022F829F100D22086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B34D022F829FB00D22086 /* LaunchScreen.storyboard in Resources */,
+				D80B34CD22F829FB00D22086 /* Assets.xcassets in Resources */,
+				D80B34CB22F829F100D22086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B34D422F829FB00D22086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B34DF22F829FB00D22086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80B34BE22F829F100D22086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B34C822F829F100D22086 /* ViewController.swift in Sources */,
+				D80B34C622F829F100D22086 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B34D222F829FB00D22086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B34DB22F829FB00D22086 /* MelodiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80B34DD22F829FB00D22086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B34E622F829FB00D22086 /* MelodiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D80B34D822F829FB00D22086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80B34C122F829F100D22086 /* Melodia */;
+			targetProxy = D80B34D722F829FB00D22086 /* PBXContainerItemProxy */;
+		};
+		D80B34E322F829FB00D22086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D80B34C122F829F100D22086 /* Melodia */;
+			targetProxy = D80B34E222F829FB00D22086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D80B34C922F829F100D22086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B34CA22F829F100D22086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80B34CE22F829FB00D22086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B34CF22F829FB00D22086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80B34E822F829FB00D22086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80B34E922F829FB00D22086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80B34EB22F829FB00D22086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZMB4L59C;
+				INFOPLIST_FILE = Melodia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LUL1.Melodia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80B34EC22F829FB00D22086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZMB4L59C;
+				INFOPLIST_FILE = Melodia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LUL1.Melodia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D80B34EE22F829FB00D22086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZMB4L59C;
+				INFOPLIST_FILE = MelodiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LUL1.MelodiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melodia.app/Melodia";
+			};
+			name = Debug;
+		};
+		D80B34EF22F829FB00D22086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZMB4L59C;
+				INFOPLIST_FILE = MelodiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LUL1.MelodiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melodia.app/Melodia";
+			};
+			name = Release;
+		};
+		D80B34F122F829FB00D22086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZMB4L59C;
+				INFOPLIST_FILE = MelodiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LUL1.MelodiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Melodia;
+			};
+			name = Debug;
+		};
+		D80B34F222F829FB00D22086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZMB4L59C;
+				INFOPLIST_FILE = MelodiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LUL1.MelodiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Melodia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80B34BD22F829F100D22086 /* Build configuration list for PBXProject "Melodia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B34E822F829FB00D22086 /* Debug */,
+				D80B34E922F829FB00D22086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80B34EA22F829FB00D22086 /* Build configuration list for PBXNativeTarget "Melodia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B34EB22F829FB00D22086 /* Debug */,
+				D80B34EC22F829FB00D22086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80B34ED22F829FB00D22086 /* Build configuration list for PBXNativeTarget "MelodiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B34EE22F829FB00D22086 /* Debug */,
+				D80B34EF22F829FB00D22086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80B34F022F829FB00D22086 /* Build configuration list for PBXNativeTarget "MelodiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B34F122F829FB00D22086 /* Debug */,
+				D80B34F222F829FB00D22086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80B34BA22F829F100D22086 /* Project object */;
+}
